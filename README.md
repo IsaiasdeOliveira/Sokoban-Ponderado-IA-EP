@@ -32,7 +32,7 @@ O custo de transição entre estados reflete o esforço físico real:
 
 ### Função Heurística e Admissibilidade
 A heurística adotada é a **Soma das Distâncias de Manhattan Ponderada**:
-$$h(n) = \sum (|x_{caixa} - x_{alvo}| + |y_{caixa} - y_{alvo}|) \times \text{peso\_da\_caixa}$$
+$$h(n) = \sum (|x_{caixa} - x_{alvo}| + |y_{caixa} - y_{alvo}|) \times peso\_caixa$$
 
 **Por que a Heurística é admissível?**
 1.  **Estimativa Otimista**: Ela assume que a caixa se move em linha reta, ignorando obstáculos e a necessidade do agente manobrar ao redor da caixa para empurrá-la.
